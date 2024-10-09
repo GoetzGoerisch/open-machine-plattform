@@ -27,7 +27,7 @@ with open(ver_path) as ver_file:
 __version__ = main_ns["__version__"]
 
 install_requires = [
-    "Django>=3.0,<3.3",
+    "Django>=3.0,<4.3",
     "django-tailwind==3.1.1",
     # "django-modelcluster>=5.2,<6.0",
     # "django-taggit>=1.0,<2.0",
